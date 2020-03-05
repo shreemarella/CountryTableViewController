@@ -13,6 +13,8 @@
 		2D15032224108ACE009071EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D15032024108ACE009071EE /* Main.storyboard */; };
 		2D15032424108AD0009071EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D15032324108AD0009071EE /* Assets.xcassets */; };
 		2D15032724108AD0009071EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D15032524108AD0009071EE /* LaunchScreen.storyboard */; };
+		2D150331241092FC009071EE /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D150330241092FC009071EE /* Country.swift */; };
+		2D5331B32411BD210089C17F /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5331B22411BD210089C17F /* DataStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2D15032324108AD0009071EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D15032624108AD0009071EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D15032824108AD0009071EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D150330241092FC009071EE /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		2D5331B22411BD210089C17F /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2D15032324108AD0009071EE /* Assets.xcassets */,
 				2D15032524108AD0009071EE /* LaunchScreen.storyboard */,
 				2D15032824108AD0009071EE /* Info.plist */,
+				2D150330241092FC009071EE /* Country.swift */,
+				2D5331B22411BD210089C17F /* DataStorage.swift */,
 			);
 			path = CountryTableViewController;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D150331241092FC009071EE /* Country.swift in Sources */,
 				2D15031F24108ACE009071EE /* ViewController.swift in Sources */,
+				2D5331B32411BD210089C17F /* DataStorage.swift in Sources */,
 				2D15031B24108ACE009071EE /* AppDelegate.swift in Sources */,
 				2D15031D24108ACE009071EE /* SceneDelegate.swift in Sources */,
 			);
